@@ -1,4 +1,4 @@
-body {
+body {More actions
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 main {
-    
+
 }
 
 .beneficios {
@@ -281,5 +281,21 @@ img ~ p {
 .principal p:not(#missao) {
     background: orange;
 }
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
 
-*/
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
+
